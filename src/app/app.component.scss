@@ -1,0 +1,39 @@
+.master-head {
+  min-height: 100vh;
+  padding-top: 6.5rem;
+  padding-bottom: 5rem;
+  color: #fff;
+  background-color: #292526;
+
+  h1:nth-child(2) {
+      color: #fec882;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  
+}
+
+.navbar {
+  background: #383234;
+
+  a {
+    width: 150px;
+    height: 60px;
+    color: #fec882;
+    background: url('../assets/images/logo.png');
+    background-size: contain;
+  }
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.btn-outline-light {
+  color: #000;
+  border: none;
+  background: linear-gradient(to top, #ff9f6c, #fec882);
+}
